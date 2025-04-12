@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>
+        Билайн
+        </title>
+        
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #nav {background-color: rgb(255, 216, 18);
+                border-top: 1px solid #888;
+                border-bottom: 1px solid #888;
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: black;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(1, 25, 68);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 500px;
+                background-image: url(11.jpg); 
+                background-size: 100% 100%;  
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 500px;
+                background-color: rgba(255, 255, 255, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                flex-basis: 20%;
+                padding: 20px;
+                background-color: rgb(255, 216, 18);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+</head>
+<body>
+        <div id="header">
+<center><h1><img src="1.jpg" width=30%><h1></center>
+        </div>
+        <div id="nav">
+            <ul>
+<li><a href="index.html">Главная</a></li>
+<li><a href="about.html">О компании</a></li>
+<li><a href="catalog.html">Каталог товаров</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+<li><a href="index.html">Главная</a></li>
+<li><a href="about.html">О компании</a></li>
+<li><a href="catalog.html">Каталог товаров</a></li>
+                </ul>
+            </div>
+<div id="sidebar-right">
+    <img src="8.png" height="400">
+</div>
+<div id="main">
+<iframe src="2.html" name="f" width="580" height="800">
+</iframe>
+</div>
+<div id="footer">8 (800) 600 11 50
+Отдел подключений
+<br>
+8 (800) 700 80 00
+Служба технической поддержки</div>
+</body>
+</html
